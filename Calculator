@@ -1,0 +1,12 @@
+first_number = int(input("Введите первое число"))
+second_number = int(input("Введите второе число"))
+
+s = input("Введите арифметический знак (плюс минус умножения или деления)")
+if s == "+" :
+  print(first_number+second_number)
+elif s == "-" :
+  print(first_number-second_number)
+elif s == "*" :
+  print(first_number*second_number)
+elif s == "/" :
+  print(first_number/second_number)
